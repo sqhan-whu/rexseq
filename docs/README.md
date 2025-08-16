@@ -74,7 +74,7 @@ pip install pysam numpy pyyaml
 
 1. Clone the REXseq repository:
 ```bash
-git clone https://github.com/your-repo/rexseq.git
+git clone https://github.com/sqhan-whu/rexseq.git
 cd rexseq
 ```
 
@@ -275,3 +275,4 @@ REXseq: A comprehensive pipeline for RNA editing detection from REXseq data.
 
 This project is licensed under the [Non-Commercial License](LICENSE).  
 Commercial use requires permission.
+
