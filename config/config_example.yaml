@@ -1,0 +1,33 @@
+# REXseq Configuration File Example
+# Copy this file to config.yaml and modify the paths according to your system
+
+# Sample information
+samples:
+  - 293-1
+  - 293-2
+
+# Computational resources
+threads: 8
+
+# Input data path (modify this to your data directory)
+path: /path/to/your/data
+
+# Script directory (modify this to your script directory)
+py_script: /path/to/scripts
+
+# Reference genome files (modify these paths)
+hg38_hisat2_index: /path/to/hg38/hisat2_index/hg38.fa
+hg38_fa: /path/to/hg38/hisat2_index/hg38.fa
+hg38_size: /path/to/hg38/hg38.fa.size
+
+# Gene annotation files (modify these paths)
+BED: /path/to/gencode.v31.annotation.bed
+trans_id: /path/to/anno.gene.txt
+
+# Annotation databases (modify these paths)
+ANNOVER: /path/to/annovar/annotate_variation.pl
+ANNOVER_hg38_DATABASE: /path/to/annovar/hg38db
+Alu_hg38_bed: /path/to/repeat.hg38.bed
+
+# Optional: rRNA database for rRNA removal
+# hg38_rRNA_database: /path/to/rRNA_database/bowtie/rRNA_database
