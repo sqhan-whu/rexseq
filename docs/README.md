@@ -267,7 +267,7 @@ If you use REXseq in your research, please cite:
 
 ```
 REXseq: A comprehensive pipeline for RNA editing detection from REXseq data.
-[Shaoqing Han]
+[Jiehua Li]
 [Deciphering the regulatory code of RNA inosine through enzymatic precision mapping and explainable deep learning model] [2025]
 ```
 
@@ -275,4 +275,5 @@ REXseq: A comprehensive pipeline for RNA editing detection from REXseq data.
 
 This project is licensed under the [Non-Commercial License](LICENSE).  
 Commercial use requires permission.
+
 
