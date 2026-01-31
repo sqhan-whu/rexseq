@@ -6,7 +6,6 @@ A comprehensive pipeline for detecting RNA editing sites from REX-seq data.
 Usage:
     python run_rexseq.py [options]
 
-Author: Shaoqing  Han
 """
 
 import os
@@ -195,4 +194,5 @@ Examples:
         sys.exit(1)
 
 if __name__ == '__main__':
+
     main()
